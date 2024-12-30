@@ -130,7 +130,9 @@ section,main,header{
 .padding-top{
     padding-top: 5rem;
 }
-
+.secondry-padding-top{
+    padding-top: 2.5rem;
+}
 .grid-col-2{
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -560,6 +562,11 @@ header nav ul li:hover a{
 /* Testimonial section END HERE  */
 
 /* Step to future Section Start Here  */
+.bg-secondary{
+    background: var(--surface--secondary);
+    padding-block: 2.5rem;
+}
+
 .future-header-box{
     text-align: center;
     margin-inline: auto;
