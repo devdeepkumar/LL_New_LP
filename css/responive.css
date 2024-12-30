@@ -1,0 +1,117 @@
+/* Show mobile navigation on smaller screens */
+@media(max-width: 991.98px) {
+    .grid-col-2{
+        grid-template-columns: repeat(1,1fr);
+    }
+    .grid-col-3{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    #getreport{
+        width: 100%;
+    }
+    .desktop-nav {
+        display: none; /* Hide desktop nav on small screens */
+    }
+
+    .mobile-nav {
+        display: flex;
+    }
+    .content-container.section1 {
+    padding-left: 0rem;
+    padding-top: 1rem;
+    }
+    .content-container.section2 {
+        padding-right: 0rem;
+        padding-bottom: 1rem;
+    }
+    .container.grid-col-2.padding-top{
+        padding-top: 0;
+    }
+    .future-container .image-box{
+        margin-bottom: 1rem;
+    }
+    .future-container .list-box{
+        display: block;
+    }
+
+    .content_area {
+    padding-inline: 120px;
+        flex-direction: column;
+        margin-bottom: 55px;
+        align-items: center;
+        justify-content: center;
+    }
+    .accordion-container{
+        width: 100%;
+    }
+}
+
+@media(max-width: 768px){
+    
+    .heading{
+        font-size: 3rem;
+    }
+    .grid-col-3{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 1rem;
+    }
+    .form_block {
+    width: 100%;
+    
+}
+    .right-area{
+        width: 310px;
+    }
+    
+    footer.container{
+        padding-bottom: 0;
+    }
+    .sub-footer .container {
+        padding-inline: 0;
+    }
+}
+
+@media (max-width:597px){
+    section,main{
+    padding-bottom: 4rem;
+}
+.padding-top{
+    padding-top: 3rem;
+}
+.heading2{
+    font-size: 2rem;
+}
+    .container {
+    box-sizing: border-box;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 0;
+}
+    .form_block {
+        width: 100%;
+    }
+    .form-row{
+        grid-template-columns: repeat(1,1fr);
+        row-gap: 1rem;
+    }
+    .form_block>div{
+        margin-bottom: 1rem;
+    }
+    #getreport{
+        padding-inline: 15px;
+    }
+    .background-bottom{
+        bottom: -.9rem;
+    }
+    .accordion-question{
+        padding-right: 1rem;
+    }
+    .content_area {
+        gap: 1.25rem;
+        margin-bottom: 2rem;
+    }
+}
