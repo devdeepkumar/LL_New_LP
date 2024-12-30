@@ -104,6 +104,9 @@
     #getreport{
         padding-inline: 15px;
     }
+    .testimonial-box{
+        padding: 1rem;
+    }
     .background-bottom{
         bottom: -.9rem;
     }
