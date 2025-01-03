@@ -117,4 +117,17 @@
         gap: 1.25rem;
         margin-bottom: 2rem;
     }
+    .accordion-button{
+        padding-inline: 0;
+    }
+    .accordion-answer{
+        padding-inline: 0;
+    }
+    .content_area{
+        display: block;
+        padding-inline: 0;
+    }
+    .left-area, .center-area, .right-area{
+        width: 100%;
+    }
 }

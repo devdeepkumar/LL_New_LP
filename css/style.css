@@ -660,7 +660,7 @@ header nav ul li:hover a{
 }
 
 .up-icon, .accordion-icon {
-    /* background-color: var(--dropdown-btn); */
+    background-color: #6e6ee845;
     border-radius: 50%;
     width: 1.75rem;
     height: 1.75rem;
@@ -875,7 +875,7 @@ footer.container{
 }
 .center-area .address div li h5 {
     margin-bottom: 1px;
-    font-size: 20px;
+    font-size: 18px;
     color: var(--text--brand);
 }
 .center-area .address div li p {
